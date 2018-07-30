@@ -165,18 +165,24 @@ h3 {
     color: #000f28;
 }
 
+#link_container {
+margin: 2em;
+text-align: center;
+}
 #link {
   text-decoration: none;
   font-family: 'Fjalla One', sans-serif;
   text-align: center;
-  margin-top: 7em;
   background-color: #000f28;
   border-style: dotted;
   border-color: #f9d37f;
   padding: 1em;
-  margin: 1em;
-  width: 10em;
   color: #f9f57f;
+}
+
+#link:hover {
+  color: #f9d37f;
+  background-color: #001233;
 }
 
 #button {

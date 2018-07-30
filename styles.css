@@ -10,6 +10,20 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
+h1 {
+  background-color: #f9f57f;
+  text-align: center;
+  font-family: 'Kirang Haerang', cursive;
+  font-size: 10rem;
+  padding: 20px;
+  border-style: double;
+  border-color: #000f28;
+  border-width: 10px;
+  border-left: 0;
+  border-right: 0;
+  color: #000f28;
+}  
+
 #content{
   display: flex;
   justify-content: space-around;
@@ -37,20 +51,6 @@ body {
 #right_panel img {
   flex: 0 1 auto;
 }
-
-h1 {
-  background-color: #f9f57f;
-  text-align: center;
-  font-family: 'Kirang Haerang', cursive;
-  font-size: 10rem;
-  padding: 20px;
-  border-style: double;
-  border-color: #000f28;
-  border-width: 10px;
-  border-left: 0;
-  border-right: 0;
-  color: #000f28;
-}  
 
 h2{
   font-family: 'Fjalla One', sans-serif;

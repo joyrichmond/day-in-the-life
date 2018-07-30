@@ -11,46 +11,54 @@
 </head>
 
 <body>
-  <h1>A Day as Arya's Momma</h1>
-  <nav>
-    <a href="#Morning">Morning</a>
-    <a href="#Afternoon">Afternoon</a>
-    <a href="#Evening">Evening</a>
+  <h1 id="title">A Day as Arya's Momma</h1>
+  <nav id="nav">
+    <ul id="nav_list">
+      <li class="nav_link">
+        <a href="#Morning">Morning</a>
+      </li>
+      <li class="nav_link">
+        <a href="#Afternoon">Afternoon</a>
+      </li>
+      <li class="nav_link">
+        <a href="#Evening">Evening</a>
+      </li>
+    </ul>
   </nav>
   <div id="content">
     <div id="left_panel">
       <div id="Morning">
         <h2>Morning</h2>
-        <ul>
-          <li>
+        <ul class="block_schedule">
+          <li class="time_segment">
             <div class="time">7:30 am</div>
             <div class="schedule">Arya wakes up.</div>
           </li>
-          <li>
+          <li class="time_segment">
             <div class="time">7:40 am</div>
             <div class="schedule">Momma gets up to get Arya's bottle ready, give a good morning kiss, and change her diaper.</div>
           </li>
-          <li>
+          <li class="time_segment">
             <div class="time">7:45 am</div>
             <div class="schedule"> Arya has her first bottle on the porch. When she's done, we rock for a while watching the birds.</div>
           </li>
-          <li>
+          <li class="time_segment">
             <div class="time">8:15 am</div>
             <div class="schedule">Play time for Arya while Momma spends some time with Jesus.</div>
           </li>
-          <li>
+          <li class="time_segment">
             <div class="time">9:00 am</div>
             <div class="schedule">We go inside and Momma has breakfast while Arya plays in the living room.</div>
           </li>
-          <li>
+          <li class="time_segment">
             <div class="time">9:30 am</div>
             <div class="schedule">Momma gets dressed and does her makeup and hair so she can feel good about going in public.</div>
           </li>
-          <li>
+          <li class="time_segment">
             <div class="time">10:00 am</div>
             <div class="schedule">Arya has bottle number 2 and gets a diaper change before going down for nap number 1.</div>
           </li>
-          <li>
+          <li class="time_segment">
             <div class="time">10-12 pm</div>
             <div class="schedule">Momma has free time. Sometimes I get chores done, or mow the grass, or do some online shopping, or work on CoderGirl
               tasks.
@@ -58,61 +66,67 @@
           </li>
         </ul>
       </div>
+      <div id="button">
+        <a id="button_link" href="#title">Back to Top</a>
+      </div>
       <div id="Afternoon">
         <h2>Afternoon</h2>
-        <ul>
-          <li>
+        <ul class="block_schedule">
+          <li class="time_segment">
             <div class="time">12:00 pm</div>
             <div class="schedule">Arya wakes up, eats, and gets another diaper change.</li>
-          <li>
+          <li class="time_segment">
             <div class="time">12-2 pm</div>
             <div class="schedule">Shopping time! This is when we get to go out and run errands before Arya has to take another nap.</div>
           </li>
-          <li>
+          <li class="time_segment">
             <div class="time">2:00 pm</div>
             <div class="schedule">Arya eats, gets a diaper change, and goes down for nap number 2.</div>
           </li>
-          <li>
+          <li class="time_segment">
             <div class="time">4:00 pm</div>
             <div class="schedule">Arya wakes up, eats, gets a diaper change (sounding repetitive yet?).</div>
           </li>
-          <li>
+          <li class="time_segment">
             <div class="time">4-5 pm</div>
             <div class="schedule">Arya plays.</div>
           </li>
-          <li>
+          <li class="time_segment">
             <div class="time">5:00 pm</div>
             <div class="schedule">Arya eats actual food. Gotta try those new flavors!</div>
           </li>
-          <li>
+          <li class="time_segment">
             <div class="time">5:30 pm</div>
             <div class="schedule">Bath time!</div>
           </li>
-          <li>
+          <li class="time_segment">
             <div class="time">6:00 pm</div>
             <div class="schedule">Eat, diaper change, down for the night with a song and a kiss.</div>
           </li>
         </ul>
         </div>
+        <div id="button">
+          <a id="button_link" href="#title">Back to Top</a>
+        </div>
         <div id="Evening">
           <h2>Evening</h2>
-          <ul>
-            <li>
+          <ul class="block_schedule">
+            <li class="time_segment">
               <div class="time">6:00 pm</div>
               <div class="schedule">This is also about when Chris gets home.</div>
             </li>
-            <li>
+            <li class="time_segment">
               <div class="time">6-10 pm</div>
               <div class="schedule">We watch some tv, eat dinner, talk, sit on the porch, and just in general hang out like best-friend hubby-wives
                 do.
               </div>
             </li>
-            <li>
+            <li class="time_segment">
               <div class="time">10:00 pm</div>
               <div class="schedule">I head to bed. Brush my teeth, wash my face. Read the next chapter in my riveting book that I read to go to
                 sleep, but hate putting down when I do.</div>
             </li>
-            <li>
+            <li class="time_segment">
               <div class="time">12:00 am</div>
               <div class="schedule">Mom. Sleep. Repeat.</div>
             </li>
@@ -121,12 +135,18 @@
       </div>
       <div id="right_panel">
         <img id=Arya1 src="Arya1.jpg" alt="Baby playing on floor" height="208px" width="372px">
+        <h3>Look at that smile!
+        </h3>
         <img id=Arya3 src="Arya3.jpg" alt="Mom and baby tongues out" height="183px" width="326px">
+        <h3>Isn't she cute?
+        </h3>
         <img id=Arya4 src="Arya4.jpg" alt="Baby eating" height="216" width="384">
+        <h3>She love her some sweet taters!
+        </h3>
+        <a id="link" href="https://photos.app.goo.gl/T4kniLGKmfa75ADi7" target="_blank">Never enough baby pictures...
+          <a>
       </div>
     </div>
-
-
 
 </body>
 

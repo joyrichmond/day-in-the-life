@@ -10,18 +10,53 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
+#nav{ 
+  background-color: #000f28;
+  border: 0.1em solid #f9f57f;
+  border-left: none;
+  border-right: none;
+  margin-bottom: 4em;
+}
+
+#nav_list {
+  font-family: fjalla one;
+  font-size: 35px;
+  text-transform: uppercase;
+  list-style-type: none;
+  padding: 1em;
+  display: flex;
+  margin: 0;
+}
+
+.nav_link {
+flex: 1 1 0;
+text-align: center;
+}
+
+.nav_link a{
+  text-decoration: none;
+  color: #f9f57f;
+  border: dotted;
+  padding: 0.7em;
+}
+
+.nav_link a:hover{
+  color: #f9d37f;
+  background-color: #001233;
+}
+
 h1 {
   background-color: #f9f57f;
   text-align: center;
   font-family: 'Kirang Haerang', cursive;
   font-size: 10rem;
-  padding: 20px;
   border-style: double;
   border-color: #000f28;
   border-width: 10px;
   border-left: 0;
   border-right: 0;
   color: #000f28;
+  margin: 0.4em 0;
 }  
 
 #content{
@@ -85,11 +120,11 @@ h2{
   color: #000f28;
 }
 
-ul{
+.block_schedule{
   list-style: none;
 }
 
-li{
+.time_segment{
   display: flex;
 }
 
@@ -122,4 +157,45 @@ img {
   transform: rotate(95deg);
   margin-top: 14rem;
 }
+
+h3 {
+  text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+    margin-top: 6em;
+    color: #000f28;
+}
+
+#link {
+  text-decoration: none;
+  font-family: 'Fjalla One', sans-serif;
+  text-align: center;
+  margin-top: 7em;
+  background-color: #000f28;
+  border-style: dotted;
+  border-color: #f9d37f;
+  padding: 1em;
+  margin: 1em;
+  width: 10em;
+  color: #f9f57f;
+}
+
+#button {
+  text-align: center;
+  margin-top: 7em;
+  background-color: #f9d37f;
+  border-style: dotted;
+  border-color: #000f28;
+}
+
+#button_link {
+  background-color:#000f28;
+  color: #f9f57f;
+  font-family: 'Fjalla One', sans-serif;
+  border-style: dotted;
+  padding: 1em;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 2em;
+}
+
 

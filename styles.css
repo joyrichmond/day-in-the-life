@@ -3,6 +3,7 @@ html {
 }
 
 body {
+  background-image: url(patternbackground.jpg);
   background-color: #7fc8f9;
   min-height: 100%;
   margin: 0;
@@ -22,8 +23,9 @@ body {
   flex-grow: 2;
 }
 
-#left_panel div {
-  margin-bottom: 4rem;
+#left_panel > div {
+  border-left: 0;
+  margin-bottom: 4em;
 }
 
 #right_panel {
@@ -40,36 +42,66 @@ h1 {
   background-color: #f9f57f;
   text-align: center;
   font-family: 'Kirang Haerang', cursive;
-  font-size: 72px;
+  font-size: 10rem;
   padding: 20px;
-  border-style: dashed;
-  border-color: #02426d;
+  border-style: double;
+  border-color: #000f28;
   border-width: 10px;
-  color: #02426d;
+  border-left: 0;
+  border-right: 0;
+  color: #000f28;
+}  
+
+h2{
+  font-family: 'Fjalla One', sans-serif;
+  text-transform: uppercase;
 }
 
-.Morning{
+#Morning{
   background-color: #f9d37f;
   border-style: solid;
-  border-width: 6px;
+  border-width: 1em;
+  border-color: #000f28;
   margin: auto;
-  padding: 2em
+  padding: 2em;
+  color: #000f28;
 }
 
-.Afternoon{
+#Afternoon{
   background-color: #f9d37f;
   border-style: solid;
-  border-width: 6px;
+  border-width: 1em;
   margin: auto;
-  padding: 20px
+  padding: 2em;
+  color: #000f28;
 }
 
-.Evening{
+#Evening{
   background-color: #f9d37f;
   border-style: solid;
-  border-width: 6px;
+  border-width: 1em;
   margin: auto;
-  padding: 20px
+  padding: 2em;
+  color: #000f28;
+}
+
+ul{
+  list-style: none;
+}
+
+li{
+  display: flex;
+}
+
+.time{
+  font-weight: bold;
+  flex: 1 1 0;
+  font-family: 'Fjalla One', sans-serif;
+  text-transform: uppercase;
+}
+
+.schedule{
+  flex: 7 1 0;
 }
 
 img {
